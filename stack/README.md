@@ -10,6 +10,8 @@ A stack is a data structure, in which, the elements are stored in the order of L
 
 4. isEmpty - Returns true if the the stack is empty.
 
+5. Show Stack - Shows the content of the stack.
+
 Some basic uses of stack:
 
 1. Infix to Postfix Conversion.
