@@ -1,6 +1,6 @@
-# Implementation of Stack Data Structure using Python3
+# Implementation of Stack Data Structure using Python3 - Last In First Out.
 # In a stack, the top element or the first element is removed
-# while new elements are added to the end of the list.
+# while new elements are added to the top of the list itself.
 
 def insert(stack,n):
   if len(stack) == 10:
@@ -14,7 +14,7 @@ def remove(stack):
   if len(stack) == 0:
     print('Underflow : No element is present that can be popped.')
   else:
-    print('The stack has been popped : ', stack.pop(0))
+    print('The stack has been popped : ', stack.pop(len(stack)-1))
   return(stack)
 
 def showStack(stack):
